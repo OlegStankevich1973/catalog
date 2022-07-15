@@ -4,7 +4,7 @@ int c1 = 43;
 int a2 = 67;
 int b2 = 57;
 int c2 = 89;
-int a3 = 345;
+int a3 = 5645;
 int b3 = 36;
 int c3 = 78;
 
@@ -19,6 +19,5 @@ if (c2 > max) max = c2;
 if (a3 > max) max = a3; 
 if (b3 > max) max = b3;
 if (c3 > max) max = c3;
-
 
 Console.WriteLine(max);
