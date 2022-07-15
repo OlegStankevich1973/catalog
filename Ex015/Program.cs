@@ -9,7 +9,9 @@ while (index < n)
 {
     if(array[index] == find)
     {
-        Console.WriteLine(index);   
+        Console.WriteLine(index);
+        // оператор остановки программы принудительно при получении первого значения
+        break;   
     }
 
     index++;    
