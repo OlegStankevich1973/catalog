@@ -1,7 +1,7 @@
 ﻿//  =======Работа с текстом
 // Дан текст.В тексте нужно все пробелы заменить черточками.
 // маленькие буквы "к"заменить большими"К"
-// а большие "С"заменить маленькими"с"
+// а маленькие "с"заменить большими"С"
 
 // текст для программы
 string text = "- Я думаю, - сказал князь,улыбаясь, - что,"
@@ -34,4 +34,8 @@ string Replace(string text,char oldValue, char newValue)
 // новый текст указываем текст и что на что меняем 'пробел','|'
 string newText = Replace(text ,' ','|');
 // выводим новый текст
+Console.WriteLine(newText);
+newText = Replace(newText,'к','К');
+Console.WriteLine(newText);
+newText = Replace(newText,'с','С');
 Console.WriteLine(newText);
